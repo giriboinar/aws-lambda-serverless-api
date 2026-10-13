@@ -1,0 +1,3 @@
+# boto3 is pre-installed in the AWS Lambda Python runtime; pinning it here so
+# local installs and CI resolve the same version for tests.
+boto3==1.35.90
